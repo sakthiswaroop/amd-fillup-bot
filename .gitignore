@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual env
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets
+.env
+*.pem
+*.key
+
+# Logs & runtime artifacts
+*.log
+logs/
+tmp/
+
+# Selenium / browser artifacts
+chromedriver*
+geckodriver*
+profile/
+user-data-dir/
+cookies*.json
+screenshots/
+downloads/
+
+# OS
+.DS_Store
+Thumbs.db
